@@ -1,0 +1,625 @@
+/**Responsive Celular**/
+@media (max-width: 767px)
+{   
+    body{
+        padding-bottom: 40%;
+    }
+
+    .buscador{
+        padding: 25px;
+    }
+
+    .carrusel-index{
+        padding: 20px;
+        z-index: 1;
+    }
+
+    .contenedor{
+        display: flex;
+    }
+    
+    .texto-2{
+        margin: 0px;
+        margin-left: 42%;
+    }
+
+    .parrafo{
+        font-size: 60%;
+    }
+
+    .footer{
+        overflow-y: hidden;
+    }
+
+    /*Menu lateral*/
+    .cont-menu{
+        z-index: 2;
+        height: 95vh;
+    }
+
+    .container-menu{
+        height: 95vh;
+    }
+
+     /*fin menu lateral*/
+
+    .Biblioteca{
+        display: none;
+    }
+    /*Formularios de Registro e Inicio de Sesion*/
+    .cont-login{
+        margin: 20px;
+    }
+    .form-login{
+        width: 400px;
+    }
+
+    .titulo-signup{
+      padding: 30px;
+      margin-top: -30px;
+    }
+
+    .cajas-formulario{
+        width: 400px;
+        margin-left: 20px;
+    }
+
+    .posicion-rol
+    {
+        position: relative;
+        bottom: 5px;
+        left: 20px;  
+        margin-left: 10px;
+    }
+
+    .boton-registro{
+        position: relative;
+        bottom: 5px;
+        left: 20px;
+        margin-top: -4px;
+        
+    }
+
+    .nombre-cajasR{
+        margin-left: 25px;
+    }
+    /*Fin de formularios de Registro e Inicio de Sesion*/
+
+    /*Pagina de perfil*/
+
+    .foto{
+        left: 10px;
+    }
+
+    img.foto{
+        width: 230px;
+        height: 230px;
+    }
+
+    .nombre-usuario{
+        left: 270px;
+        bottom: 15%;
+    }
+
+    .nombre-rol{
+        left: 270px;
+        bottom: 15%;
+    }
+
+    .titulo-seminario{
+        font-size: 20pt;
+        bottom: -2%;
+        left: 10%; 
+    }
+
+    .nombre-seminario{
+        font-size: 20pt;
+        bottom: -2%;
+        left: 10%; 
+    }
+
+    .titulo-correo{
+        font-size: 20pt;
+        bottom: -2%;
+        left: 10%; 
+    }
+
+    .nombre-correo{
+        font-size: 20pt;
+        bottom: -2%;
+        left: 10%; 
+    }
+
+    .boton-perfil{
+        bottom: -15%;
+        left: 15%;
+    }
+
+    .nombre-cajas
+    {
+        margin-left: 20px;
+    }
+
+    .posicion-rol{
+        left: 10px;
+    }
+
+    /*Fin Pagina Perfil*/
+
+    /*Formulario Subir Proyecto*/
+        .titulo-proyecto{
+            font-family: Lustria; 
+            margin-top: 10px; 
+            font-size: 20pt; 
+            margin-bottom: 5px;
+            margin-left: 30px;
+        }
+        .titulo-proyecto p{
+            font-size: 10pt;
+        }
+        .nombre-cajas label{
+            margin-left: 20px;
+        }
+        .caja-proyecto{
+            border: 3px solid #0F1D5D; 
+            width: 400px; 
+            border-radius: 10px;
+            margin-left: 20px;
+        }
+    /*Fin Formulario Subir Proyecto*/
+
+    /*Pagina Seminarios*/
+        .cartas-seminarios{
+            width: 250px;
+            margin: 0 auto;
+        }
+    /*Fin Pagina Seminarios*/
+
+    /*Pagina Seminario*/
+        .texto-seminario{
+            margin-left: 20px;
+        }
+
+        .texto-seminario h2{
+            font-size: 15pt;
+        }
+    /*Fin Pagina Seminario*/
+
+    /*Formulario Calificacion*/
+    .calificacion input{
+        position: relative;
+        left: 15%;
+        top: 2px;
+    }
+    /* Fin Formulario Calificacion*/
+
+    .boton-crear{
+        position: relative;
+        left: 320px;
+        bottom: 40px;
+    }
+
+    .boton-editar button{
+        position: relative;
+    }
+
+    .boton-eliminar button{
+        position: relative;
+        left: 100px;
+        bottom: 36px;
+    } 
+}
+
+/**Fin Responsive Celular**/
+
+/**Responsive Tablet**/
+@media (min-width: 768px) and (max-width: 990px)
+{
+
+    .contenedor{
+        display: flex;
+    }
+    
+    .texto-2{
+        margin: 0px;
+        margin-left: 58%;
+    }
+
+    .parrafo{
+        font-size: 60%;
+    }
+
+    .footer{
+        overflow-y: hidden;
+    }
+
+    .cont-menu{
+        z-index: 2;
+        height: 92.5vh;
+    }
+
+    .container-menu{
+        height: 92.5vh;
+    }
+
+    .Biblioteca{
+        display: none;
+    }
+
+    .boton-login{
+        width: 400px;
+    }
+
+    .cont-login{
+        margin: 20px;
+    }
+
+    .form-login{
+        width: 600px;
+    }
+
+    .titulo-signup{
+        padding: 20px;
+        margin-top: -30px;
+        margin-left: -40px;
+    }
+  
+    .cajas-formulario{
+        width: 400px;
+        margin-left: -20px;
+    }
+  
+    .posicion-rol
+    {
+        position: relative;
+        bottom: 5px;
+        left: 20px;  
+        margin-left: -40px;
+      }
+  
+    .boton-registro{
+        position: relative;
+        bottom: 5px;
+        left: 20px;
+        margin-top: -4px;
+        margin-left: -40px;
+    }
+    
+    .nombre-cajasR{
+        margin-left: -20px;
+    }
+
+    /*Pagina de perfil*/
+
+    .foto{
+        left: 10px;
+    }
+
+    img.foto{
+        width: 230px;
+        height: 230px;
+    }
+
+    .nombre-usuario{
+        left: 270px;
+        bottom: 15%;
+    }
+
+    .nombre-rol{
+        left: 270px;
+        bottom: 15%;
+    }
+
+    .titulo-seminario{
+        font-size: 20pt;
+        bottom: -2%;
+        left: 10%; 
+    }
+
+    .nombre-seminario{
+        font-size: 20pt;
+        bottom: -2%;
+        left: 10%; 
+    }
+
+    .titulo-correo{
+        font-size: 20pt;
+        bottom: -2%;
+        left: 10%; 
+    }
+
+    .nombre-correo{
+        font-size: 20pt;
+        bottom: -2%;
+        left: 10%; 
+    }
+
+    .boton-perfil{
+        bottom: -15%;
+        left: 15%;
+    }
+
+    .nombre-cajas
+    {
+        margin-left: -20px;
+    }
+
+    /*Fin Pagina Perfil*/
+
+    /*Formulario Subir Proyecto*/
+    .titulo-proyecto{
+        font-family: Lustria; 
+        margin-top: 20px; 
+        font-size: 25pt; 
+        margin-bottom: 5px;
+        margin-left: 30px;
+    }
+    .titulo-proyecto p{
+        font-size: 5pt;
+    }
+    .nombre-cajas label{
+        margin-left: 50px;
+    }
+    .caja-proyecto{
+        border: 3px solid #0F1D5D; 
+        width: 500px; 
+        border-radius: 10px;
+        margin-left: 50px;
+    }
+/*Fin Formulario Subir Proyecto*/
+
+    /*Pagina Seminario*/
+        .texto-seminario{
+            margin-left: 20px;
+        }
+
+        .texto-seminario h2{
+            font-size: 15pt;
+        }
+    /*Fin Pagina Seminario*/
+
+    /*Formulario Calificacion*/
+        .calificacion input{
+            position: relative;
+            left: 15%;
+            top: 2px;
+        }
+        .calificacion{
+            margin: 0 auto;
+            margin-left: 6px;
+        }
+    /* Fin Formulario Calificacion*/
+
+    .boton-crear{
+        position: relative;
+        left: 500px;
+        bottom: 40px;
+    }
+
+    .boton-editar button{
+        position: relative;
+    }
+
+    .boton-eliminar button{
+        position: relative;
+        left: 80px;
+        bottom: 36px;
+    }
+}
+
+/**Responsive PC**/
+@media (min-width: 991px)
+{
+
+    .contenedor{
+        display: flex;
+    }
+    
+    /* Pie de página */ 
+
+    .texto-2{
+        margin: 0px;
+        margin-left: 77%;
+    }
+    
+    .parrafo{
+        font-size: 80%;
+    }
+
+
+    /* Fin pie de pagina */
+
+    .cont-menu{
+        z-index: 2;
+        height: 92.5vh;
+    }
+
+    .container-menu{
+        height: 92.5vh;
+    }
+
+    .cont-login{
+        margin: 20px;
+    }
+
+    .form-login{
+        width: 650px;
+    }
+
+    .Biblioteca{
+        display:none;
+        position: relative;
+        left: 100%;
+        bottom: 70%;
+    }
+
+    .titulo-signup{
+        padding: -10px;
+        margin-top: -30px;
+        margin-left: -90px;
+    }
+
+    
+    .nombre-cajas{
+        margin-left: -50px;
+    }
+  
+    .cajas-formulario{
+        width: 400px;
+        margin-left: 10px;
+
+    }
+  
+    .posicion-rol
+    {
+        position: relative;
+          bottom: 5px;
+          left: 20px; 
+          margin-left: -70px;
+      }
+  
+      .boton-registro{
+          position: relative;
+          bottom: 5px;
+          left: 20px;
+          margin-top: -4px;
+    }
+
+    .nombre-cajasR{
+        position: relative;
+        left: 60px;
+        margin-left: -45px;
+    }
+
+        /*Pagina de perfil*/
+
+        .foto{
+            left: 10px;
+        }
+    
+        img.foto{
+            width: 230px;
+            height: 230px;
+        }
+    
+        .nombre-usuario{
+            left: 270px;
+            bottom: 15%;
+        }
+    
+        .nombre-rol{
+            left: 270px;
+            bottom: 15%;
+        }
+    
+        .titulo-seminario{
+            font-size: 20pt;
+            bottom: -2%;
+            left: 10%; 
+        }
+    
+        .nombre-seminario{
+            font-size: 20pt;
+            bottom: -2%;
+            left: 10%; 
+        }
+    
+        .titulo-correo{
+            font-size: 20pt;
+            bottom: -2%;
+            left: 10%; 
+        }
+    
+        .nombre-correo{
+            font-size: 20pt;
+            bottom: -2%;
+            left: 10%; 
+        }
+    
+        .boton-perfil{
+            bottom: -15%;
+            left: 15%;
+        }
+
+        .nombre-cajas
+        {
+            margin-left: -50px;
+        }
+    
+        /*Fin Pagina Perfil*/
+
+            /*Formulario Subir Proyecto*/
+            .titulo-proyecto{
+                font-family: Lustria; 
+                margin-top: 20px; 
+                font-size: 25pt; 
+                margin-bottom: 5px;
+                margin-left: 0px;
+            }
+            .titulo-proyecto p{
+                font-size: 5pt;
+            }
+            .nombre-cajas label{
+                margin-left: 50px;
+            }
+            .caja-proyecto{
+                border: 3px solid #0F1D5D; 
+                width: 500px; 
+                border-radius: 10px;
+                margin-left: 50px;
+            }
+        /*Fin Formulario Subir Proyecto*/
+
+                /*Pagina Seminario*/
+                .texto-seminario{
+                    margin-left: 20px;
+                }
+        
+                .texto-seminario h2{
+                    font-size: 20pt;
+                }
+
+                .lista-proyectos li{
+                    font-size: 16pt;
+                }
+            /*Fin Pagina Seminario*/
+
+            /*Formulario Calificacion*/
+            .download-project{
+                position: relative;
+                right: 13%;
+            }
+            .calificacion input{
+                position: relative;
+                left: 55%;
+                top: 2px;
+            }
+            .calificacion button{
+                position: relative;
+                left: 55%;
+                top: 0px;
+            }
+            .calificacion{
+                margin: 0 auto;
+                margin-left: 6px;
+                position: relative;
+                bottom: 122px;
+            }
+        /* Fin Formulario Calificacion*/
+
+        .boton-crear{
+            position: relative;
+            left: 90%;
+            bottom: 40px;
+        }
+
+        .boton-editar button{
+            position: relative;
+        }
+    
+        .boton-eliminar button{
+            position: relative;
+            left: 80px;
+            bottom: 36px;
+        }
+}
